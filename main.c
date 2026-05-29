@@ -43,7 +43,7 @@ int main()
       ClearBackground(BLACK);
       DrawText(TextFormat("Bounces: %d", bounces), 100, 100, 100, WHITE);
       DrawText(TextFormat("Gravity: {x = %.2f, y = %.2f}", GRAVITY.x, GRAVITY.y), 100, 200, 100, WHITE);
-//      DrawLine(0, SCREEN_HEIGHT / 2, SCREEN_WIDTH, SCREEN_HEIGHT / 2, WHITE);
+      DrawLine(0, SCREEN_HEIGHT / 2, SCREEN_WIDTH, SCREEN_HEIGHT / 2, WHITE);
       DrawCircle(circle.center.x, circle.center.y, circle.radius, circle.color);
     EndDrawing();
   }
